@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:ital,wght@300;0,600;1,200;1,300;1,500;1,900 &familia= Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900 & display=swap');
+
+/* :root{
+    para agregar colores
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serifs;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* header */
+
+header{
+    background: rgb(76, 101, 38) ;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0px 30px 0px 30px;
+    position: fixed;
+    top: 0;
+}
+
+.logo{
+    height: 100%;
+    width: 110px;
+   
+   
+}
+
+.navbar, .navbar-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+    gap: 150px;
+}
+
+.navbar-list{
+    gap: 30px;
+}
+
+.navbar-list a{
+    color: grey;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.navbar-list li:first-child > a{
+    color: white;
+    font-weight: 1000;
+
+}
+
+.car-icon{
+   color: blue;
+    height: 40px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+main{
+    background: rgb(76, 101, 38) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    color: white;
+    width: 100%;
+}
+
+#hero{
+    margin-top: 65px;
+    padding: 70px 0px;
+    max-width: 1200px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 70px;
+    
+    
+}
+
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width:50%;
+
+}
+
+.hero-info h1{
+    font-size:48px;
+    width: 80%;
+    min-width: 500px;
+    font-weight: 800;
+    color:white;
+
+}
+
+.hero-info p{
+    font-size: 19px;
+    width: 100%;
+    color: gray;
+
+}
+
+.hero-info a{
+    color:white;
+    background-color: blue;
+    width: 120px;
+    padding: 12px 0px;
+    border-radius: 10px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.hero-img{
+    width: 350px;
+    background: grey;
+    padding: 10px;
+    border-radius:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        
+}
+
+#info{
+    margin-top: 65px;
+    padding: 70px 0px;
+    max-width: 1200px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 80px;
+}    
+
+.info-product {
+    font-size: 30px;
+    font-weight: 1000;
+    min-width: 500px;
+    width: 60%;
+    color:white;
+    text-align: center;    
+
+}
